@@ -3,7 +3,10 @@ sudo vi /usr/share/X11/xkb/symbols/pc
   change Super_ -> TMP_HOLDER
   change Control_ -> Super_
   change TMP_HOLDER -> Control_
-  
+
+#add alias lines
+echo "alias git-undo-commit='git reset --soft HEAD~1'" >> ~/.bashrc
+
 # sublime text 3
 sudo add-apt-repository -y ppa:webupd8team/sublime-text-3
 sudo apt-get update; sudo apt-get install -y sublime-text-installer
