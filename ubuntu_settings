@@ -1,3 +1,11 @@
+install 14.04
+map dropbox 
+sudo adduser tom vboxsf
+sudo apt-get update; sudo apt-get install gnome-session-fallback
+sudo apt-get install terminator
+
+
+
 #change command to act as control
 sudo vi /usr/share/X11/xkb/symbols/pc
   change Super_ -> TMP_HOLDER
